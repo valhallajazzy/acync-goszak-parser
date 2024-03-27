@@ -10,6 +10,9 @@ python = "^3.11"
 requests = "^2.31.0"
 beautifulsoup4 = "^4.12.3"
 xmltodict = "^0.13.0"
+lxml = "^5.1.0"
+celery = {extras = ["redis"], version = "^5.3.6"}
+flower = "^2.0.1"
 
 
 [build-system]

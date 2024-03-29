@@ -13,6 +13,7 @@ xmltodict = "^0.13.0"
 lxml = "^5.1.0"
 celery = {extras = ["redis"], version = "^5.3.6"}
 flower = "^2.0.1"
+python-dotenv = "^1.0.1"
 
 
 [build-system]

@@ -1,7 +1,7 @@
 # Асинхронный парсер сайта  https://zakupki.gov.ru
 
-Данный парсер собирает информацию по закупкам 44-ФЗ с перых двух страниц и выводит ее в консоль  
-Так же статус выполнения задачи можно отследить во Flower
+Данный парсер собирает информацию по закупкам 44-ФЗ с перых двух страниц и выводит ее в консоль.  
+Так же статус выполнения задачи можно отследить во Flower.
 
 ## Подготовка и запуск скрипта
 Все перечисленные пункты ниже деалются из корневой директории проекта в терминале
@@ -19,7 +19,7 @@ $ poetry shell
 $ docker-compose up -d
 ```
 * Создаем файл `.env` и указываем переменные `CELERY_BROKER_URL` и `CELERY_RESULT_BACKEND`
-![Screenshot](https://github.com/valhallajazzy/online_library/blob/main/pic/pathtulu.png)
+![Screenshot](https://github.com/valhallajazzy/goszakparser/blob/main/pictures/env.png)
 * В первом теримнале запускаем Celery:
 ```console
 $ celery -A tasks.celery worker --loglevel=info

@@ -47,6 +47,7 @@ def get_links_to_xml_from_page(page_number):
         response = requests.get(url, params=params)
         response.raise_for_status()
         soup = bs(response.text, 'lxml')
+        print(soup)
         links_to_printed_form = get_links_to_printed_form(soup)
         return links_to_printed_form
     except requests.exceptions.HTTPError as exc:

@@ -32,3 +32,9 @@ $  celery -A tasks:celery flower port=5555
 ```console
 $  python3 main.py
 ```
+
+## Тесты
+Запуск тестов производится командой:
+```console
+$  pytest test.py -v
+```

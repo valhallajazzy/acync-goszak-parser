@@ -10,4 +10,3 @@ def get_links_to_printed_form(soup):
     return links_to_printed_form
 
 
-
